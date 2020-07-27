@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Radix Tree</title>
+	<script src="/static/js/ajax.js"></script>
+	<link rel="stylesheet" src="/static/js/bootstrap.js" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link rel="stylesheet" href="/static/css/style.css" type="text/css">
+</head>
+<body style="background-color: #F7FFF7;">
+	  
+	  <div class='content'>
+		  <div class="container-fluid logo operational">
+		  	Radix Tree
+		  </div>
+		  <div class="container-fluid d-flex operational">
+			  	<form id="form_to_api" action="">
+			  		<div id="decoder_salvage" class="form-group mr-3">
+			  			<input id='params' class="form-control decoder salvage" placeholder="enter code" type="text">
+			  		</div>
+			  	</form>
+			  	<div class="ml-3">
+			  		<select id="select_resource" class="custom-select">
+			  			<option value="insert">Insert code</option>
+			  			<option value="search">Search code</option>
+			  			<option value="all">All codes</option>
+			  			<option value="childrens">Childrens</option>
+			  			<option value="parents">Parents</option>
+			  		</select>
+			  	</div>
+			  	<button id="btn_submit" type="submit" class="form-control btn btn-primary btn-sm">GO</button>
+		  </div>
+	  	<div id='response' class='container-fluid response'>
+			
+	  	</div>
+	</div>
+
+	<script src="/static/js/main.js" type="text/javascript" charset="utf-8">
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+.logo {
+    text-align: center;
+    font-size: 4em;
+}
+.operational {
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    height: 120px;
+    width: 75%;
+    padding-top: 25px;
+}
+.valid:focus {
+	box-shadow: 0 0 0 0.2rem rgb(9, 249, 69) !important;
+}
+.invalid {
+	color: red;
+	box-shadow: 0 0 0 0.2rem red !important;
+}
+.response {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+	color: #1d1f21;
+}
+.detail_none {
+	display: none;
+}
+.with_items:hover {
+	background-color: #e8ffba;
+}
+
+.btn-primary {
+    width: 10%;
+    margin-left: 10px;
+}
